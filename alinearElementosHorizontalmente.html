@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/alinearElementosHorizontalmente.css">
+        <title>Alinear Horizontalmente con CSS</title>
+    </head>
+    <body>
+        <div class="container"><h1>Alinear y centrar elementos con
+                CSS</h1></div>
+
+        <p>
+            Aplicar un
+            <label>
+                <select>
+                    <option value="auto" selected>margin: auto</option>
+                    <option value="0 0 0 auto">margin-left: auto</option>
+                    <option value="0 auto 0 0">margin-right: auto</option>
+                    <option value="0">margin: 0</option>
+                </select>
+            </label>
+        </p>
+
+    </body>
+    <script>
+        const container = document.querySelector(".container");
+        const select = document.querySelector("select");
+
+        select.addEventListener("input", () => {
+            const selectedOption = select.querySelector("option:checked").value;
+            container.style.margin = selectedOption;
+});
+
+    </script>
+</html>

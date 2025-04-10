@@ -32,7 +32,9 @@ span {
 }
 .fuente_2{
     margin-left: 120px;
-    display: block;
+    display: inline-block;/*conseguiremos un elemento que funcionará como 
+    si fuera un elemento inline, pero obedeciendo a las propiedades 
+    width y height*/
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     width: 100px;

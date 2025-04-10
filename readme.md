@@ -49,3 +49,33 @@
   
 - Todos los elementos `<div>` se comportan como elementos de bloque `block`.
 
+## `inline-block`
+- Conseguiremos un elemento que funcionará como si fuera un elemento `inline`, pero obedeciendo a las propiedades `width` y `height`.
+
+## `none`
+- Indica a la propiedad `display` que el navegador no debe renderizar el elemento ni sus hijos y, aunque exista en el HTML, no se mostrará.
+
+# 2. Alinear y centrar elementos con CSS
+
+- `Flex` o `Grid`, es conveniente conocer las bases y como podemos centrar o alinear elementos con CSS, sin necesitar utilizar dichos mecanismos.
+## 2.1. Resetear estilos por defecto
+-  Los navegadores tienen ciertos estilos por defecto, como por ejemplo ese margen en el `<body>` que hace que el recuadro no esté pegado a los bordes.
+```css
+body {
+  margin: 0;
+  background: black;
+}
+
+.container {
+  background: indigo;
+  color: white;
+  padding: 2rem;
+}
+```
+## 2.2. Centrar Horizontalmente
+
+- 1️⃣ El elemento debe tener un `display: block` (no sirve `inline`, `inline-block` o derivados).
+- 2️⃣ El elemento debe tener un `width`.
+
+
+

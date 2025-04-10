@@ -1,0 +1,20 @@
+/*Resetar elementos*/
+body {
+    margin: 0;
+    background: black;
+}
+/*estilo pagina*/
+.container {
+    width: 300px;/*tamano de 300px x 250px*/
+    min-height: 250px;/*Con esto no obligamos
+    a que sea siempre ese alto, sino que en el caso 
+    de tener mucha información, se pueda hacer más grande.*/
+    background: indigo;
+    color: white;
+    padding: 2rem;
+    margin: auto;/*lo que hacemos es decirle que ese espacio
+    restante lo divida en dos: el primero lo colocará a la 
+    izquierda, y el segundo lo colocará a la derecha, y como
+    efecto «colateral» el elemento se centrará en pantalla:*/
+    
+}
