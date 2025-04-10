@@ -1,0 +1,42 @@
+div {
+    background: darkblue;
+    color: white;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5px;
+}
+.div2{
+    background: orange;
+    display: inline;
+    color: #000;
+    /*con display: inline ancho y alto se ignora*/
+    height: 300px;
+    width: 300px;
+}
+span {
+    background: rgb(0, 139, 72);
+    color: white;
+    margin-top: 5px;
+}
+
+.fuente{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.block{
+    display: block;
+    background-color: orchid;
+    width: 300px;
+    height: 300px;
+}
+.fuente_2{
+    margin-left: 120px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100px;
+    height: 59px;
+    align-content: center;
+    padding: 30px;
+}
