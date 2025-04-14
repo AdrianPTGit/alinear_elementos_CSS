@@ -114,5 +114,36 @@ body {
 }
 ```
 
+## 2.5. Crear Columnas
 
+- Para crear columnas utilizamos las propiedades  `column-count` y `column-width`
 
+| Propiedad      | Descripción                                                                 |
+|----------------|------------------------------------------------------------------------------|
+| `column-count` | Indica el número de columnas que queremos establecer. Por defecto, `auto`.  |
+| `column-width` | Indica el tamaño ideal de cada columna. Por defecto, `auto`.                |
+| `columns`      | Propiedad de atajo de las dos anteriores: `count` y `width`.                |
+
+```css
+.container {
+  width: 800px;
+  column-count: 3;
+  column-width: 300px;
+}
+```
+
+### Separación de columnas
+
+| Propiedad           | Descripción                                                                 |
+|---------------------|------------------------------------------------------------------------------|
+| `column-count`      | Indica el número de columnas que queremos establecer. Por defecto, `auto`.  |
+| `column-width`      | Indica el tamaño ideal de cada columna. Por defecto, `auto`.                |
+| `columns`           | Propiedad de atajo de las dos anteriores: `count` y `width`.                |
+| `column-gap`        | Establece un hueco o espacio entre columnas con el tamaño indicado.         |
+| `column-rule-width` | Establece el tamaño de la línea divisoria entre columnas.                   |
+| `column-rule-style` | Establece el estilo de la línea divisoria entre columnas.                   |
+| `column-rule-color` | Establece el color de la línea divisoria entre columnas.                    |
+| `column-rule`       | Propiedad de atajo de las tres anteriores.                                  |
+
+- Las reglas de columnas son unas líneas divisorias que podemos establecer entre columnas para que se vea más claramente la división creada.
+- Funciona de forma muy similar a los bordes CSS, ya que también podemos establecer color, estilo y grosor, incluso con su propiedad `column-rule` de atajo.
