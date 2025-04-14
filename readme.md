@@ -92,7 +92,7 @@ body {
   padding: 2rem;
 }
 ```
-## 2.3. Centrar verticalmente
+
 
 
 
