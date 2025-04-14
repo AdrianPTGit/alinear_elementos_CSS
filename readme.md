@@ -92,7 +92,27 @@ body {
   padding: 2rem;
 }
 ```
+## 2.3. Centrar verticalmente
 
+```css
+html {
+  background: hotpink;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+
+.container {
+  width: 300px;
+  min-height: 250px;
+  margin: auto;
+  background: indigo;
+  color: white;
+  padding: 2rem;
+}
+```
 
 
 
