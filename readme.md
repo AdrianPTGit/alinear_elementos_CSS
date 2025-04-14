@@ -77,5 +77,22 @@ body {
 - 1️⃣ El elemento debe tener un `display: block` (no sirve `inline`, `inline-block` o derivados).
 - 2️⃣ El elemento debe tener un `width`.
 
+```css
+body {
+  margin: 0;
+  background: black;
+}
+
+.container {
+  width: 300px;
+  min-height: 250px;
+  margin: auto;
+  background: indigo;
+  color: white;
+  padding: 2rem;
+}
+```
+## 2.3. Centrar verticalmente
+
 
 
